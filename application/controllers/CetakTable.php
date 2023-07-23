@@ -5,6 +5,7 @@ class CetakTable extends CI_Controller
 {
     var $m_kelas;
     var $m_jabatan;
+    var $m_mapel;
     var $m_siswa;
     var $m_guru;
     var $m_staff;
@@ -16,6 +17,7 @@ class CetakTable extends CI_Controller
         $this->load->database();
         $this->load->model('m_kelas');
         $this->load->model('m_jabatan');
+        $this->load->model('m_mapel');
         $this->load->model('m_siswa');
         $this->load->model('m_guru');
         $this->load->model('m_staff');
@@ -55,6 +57,22 @@ class CetakTable extends CI_Controller
         $data['title']  = 'Laporan Jabatan';
 
         $this->load->view('laporan/jabatan2', $data);
+    }
+
+    public function mapel()
+    {
+        $data['mapel']  = $this->m_mapel->get_mapel();
+        $data['title']  = 'Laporan Mapel';
+
+        $this->load->view('laporan/mapel', $data);
+    }
+
+    public function mapelBiasa()
+    {
+        $data['mapel']  = $this->m_mapel->get_mapel();
+        $data['title']  = 'Laporan Mapel';
+
+        $this->load->view('laporan/mapel2', $data);
     }
 
     public function siswa()
