@@ -1,7 +1,7 @@
 <div class="flex flex-row uppercase shadow-md bg-gradient-to-r from-gray-600 to-gray-700 py-7">
     <div class="container flex items-center justify-between mx-auto">
         <div class="navbar-brand">
-            <a href="<?php echo base_url('webadmin') ?>" class="text-2xl font-medium hover:text-gray-400 text-gray-50">SIRADAR</a>
+            <a href="<?php echo base_url('webadmin') ?>" class="text-2xl font-medium hover:text-gray-400 text-gray-50">SIAKAD</a>
         </div>
         <div class="flex items-center justify-center gap-12 navbar-items">
             <a href="<?php echo base_url('webadmin') ?>" class="font-medium text-md hover:text-gray-400 text-gray-50">Dashboard</a>
