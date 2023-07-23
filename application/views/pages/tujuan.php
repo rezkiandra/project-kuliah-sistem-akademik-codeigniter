@@ -16,17 +16,17 @@
             </div>
         </div>
         <div class="container grid grid-cols-3 gap-5">
-            <div class="h-56 p-10 border rounded-lg shadow-md bg-slate-100">
-                <h1 class="mb-5 font-serif text-3xl font-medium text-center text-gray-700 capitalize">Memperluas Informasi</h1>
-                <h3 class="font-serif text-xl font-medium text-center text-gray-700 capitalize">Untuk memperluas informasi yang disampaikan oleh pihak SMP 1 Sambas</h3>
+            <div class="flex flex-col items-center justify-center h-56 p-10 border rounded-lg shadow-md bg-slate-100">
+                <h1 class="mb-5 font-serif text-3xl font-medium text-center text-gray-700 capitalize">Mengolah Data</h1>
+                <h3 class="font-serif text-xl font-medium text-center text-gray-700">Untuk mengolah data akademis yang lama kemudian menggantinya dengan data akademis yang terbaru</h3>
             </div>
-            <div class="h-56 p-10 border rounded-lg shadow-md bg-slate-100">
-                <h1 class="mb-5 font-serif text-3xl font-medium text-center text-gray-700 capitalize">Memperluas Informasi</h1>
-                <h3 class="font-serif text-xl font-medium text-center text-gray-700 capitalize">Untuk memperluas informasi yang disampaikan oleh pihak SMP 1 Sambas</h3>
+            <div class="flex flex-col items-center justify-center h-56 p-10 border rounded-lg shadow-md bg-slate-100">
+                <h1 class="mb-5 font-serif text-3xl font-medium text-center text-gray-700 capitalize">Manajemen Data</h1>
+                <h3 class="font-serif text-xl font-medium text-center text-gray-700">Untuk memanajemen data akademis yang sudah diolah kemudian memilahnya sesuai kurikulum yang terbaru</h3>
             </div>
-            <div class="h-56 p-10 border rounded-lg shadow-md bg-slate-100">
-                <h1 class="mb-5 font-serif text-3xl font-medium text-center text-gray-700 capitalize">Memperluas Informasi</h1>
-                <h3 class="font-serif text-xl font-medium text-center text-gray-700 capitalize">Untuk memperluas informasi yang disampaikan oleh pihak SMP 1 Sambas</h3>
+            <div class="flex flex-col items-center justify-center h-56 p-10 border rounded-lg shadow-md bg-slate-100">
+                <h1 class="mb-5 font-serif text-3xl font-medium text-center text-gray-700 capitalize">Mengintegrasikan Data</h1>
+                <h3 class="font-serif text-xl font-medium text-center text-gray-700">Untuk mengintegrasikan data akademis yang sudah dipilah kemudian di simpan ke database agar mudah di maintenance</h3>
             </div>
         </div>
     </div>

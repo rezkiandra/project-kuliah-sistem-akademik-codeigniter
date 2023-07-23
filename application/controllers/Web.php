@@ -3,11 +3,19 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 class Web extends CI_Controller
 {
+	var $m_kelas;
+	var $m_siswa;
+	var $m_guru;
+	var $m_staff;
 
 	function __construct()
 	{
 		parent::__construct();
 		$this->load->helper('url');
+		$this->load->model('m_kelas');
+		$this->load->model('m_siswa');
+		$this->load->model('m_guru');
+		$this->load->model('m_staff');
 	}
 
 
@@ -40,7 +48,11 @@ class Web extends CI_Controller
 
 	public function profil()
 	{
-		$data['title'] = "Profil";
+		$data['kelas']		= $this->m_kelas->count_kelas();
+		$data['siswa']		= $this->m_siswa->count_siswa();
+		$data['guru']		= $this->m_guru->count_guru();
+		$data['staff']		= $this->m_staff->count_staff();
+		$data['title'] 		= "Profil";
 
 		$this->load->view('layouts/navbar', $data);
 		$this->load->view('pages/profil', $data);
@@ -55,12 +67,4 @@ class Web extends CI_Controller
 		$this->load->view('pages/login', $data);
 		$this->load->view('layouts/footer');
 	}
-
-	// public function tabel()
-	// {
-	// 	$data['nama'] = "RIO";
-	// 	$this->load->view('layouts/v_header', $data);
-	// 	$this->load->view('layouts/v_tabel');
-	// 	$this->load->view('layouts/v_footer', $data);
-	// }
 }

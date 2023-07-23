@@ -26,21 +26,21 @@
         </div>
 
         <div class="container grid grid-cols-4 gap-5">
-            <div class="h-48 py-10 border rounded-lg shadow-md px-7 bg-slate-100">
-                <h1 class="mb-2 font-serif text-3xl font-medium text-center text-gray-700">24</h1>
-                <h1 class="font-serif text-3xl font-medium text-center text-gray-700">Guru</h1>
+            <div class="flex flex-col items-center justify-center h-48 py-10 border rounded-lg shadow-md px-7 bg-slate-100">
+                <h1 class="mb-2 font-serif text-3xl font-medium text-center text-gray-700"><?= $guru ?></h1>
+                <h1 class="font-serif text-3xl font-medium text-center text-gray-700">Tenaga Guru</h1>
             </div>
-            <div class="h-48 py-10 border rounded-lg shadow-md px-7 bg-slate-100">
-                <h1 class="mb-2 font-serif text-3xl font-medium text-center text-gray-700">5</h1>
+            <div class="flex flex-col items-center justify-center h-48 py-10 border rounded-lg shadow-md px-7 bg-slate-100">
+                <h1 class="mb-2 font-serif text-3xl font-medium text-center text-gray-700"><?= $staff ?></h1>
                 <h1 class="font-serif text-3xl font-medium text-center text-gray-700">Tenaga Staff</h1>
             </div>
-            <div class="h-48 py-10 border rounded-lg shadow-md px-7 bg-slate-100">
-                <h1 class="mb-2 font-serif text-3xl font-medium text-center text-gray-700">21</h1>
+            <div class="flex flex-col items-center justify-center h-48 py-10 border rounded-lg shadow-md px-7 bg-slate-100">
+                <h1 class="mb-2 font-serif text-3xl font-medium text-center text-gray-700"><?= $kelas ?></h1>
                 <h1 class="font-serif text-3xl font-medium text-center text-gray-700">Ruang Kelas</h1>
             </div>
-            <div class="h-48 py-10 border rounded-lg shadow-md px-7 bg-slate-100">
-                <h1 class="mb-2 font-serif text-3xl font-medium text-center text-gray-700">5</h1>
-                <h1 class="font-serif text-3xl font-medium text-center text-gray-700">Kantin Sekolah</h1>
+            <div class="flex flex-col items-center justify-center h-48 py-10 border rounded-lg shadow-md px-7 bg-slate-100">
+                <h1 class="mb-2 font-serif text-3xl font-medium text-center text-gray-700"><?= $siswa ?></h1>
+                <h1 class="font-serif text-3xl font-medium text-center text-gray-700">Siswa</h1>
             </div>
         </div>
     </div>
