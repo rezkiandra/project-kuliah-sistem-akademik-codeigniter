@@ -42,7 +42,7 @@
                 <div class="flex flex-col mb-3">
                     <label for="id_jabatan" class="mb-3 text-lg font-medium">Nama Jabatan</label>
                     <select name="id_jabatan" id="id_jabatan" class="px-2 py-3 border rounded" required>
-                        <option disabled value="<?= $staff->id_jabatan ?>"><?= $staff->nama_jabatan ?></option>
+                        <option value="<?= $staff->id_jabatan ?>"><?= $staff->nama_jabatan ?></option>
                         <?php foreach ($jabatan as $key => $data) : ?>
                             <option value="<?= $data->id_jabatan ?>"><?= $data->nama_jabatan ?></option>
                         <?php endforeach; ?>

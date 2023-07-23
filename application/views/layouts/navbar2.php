@@ -25,6 +25,9 @@
                         <a href="<?php echo base_url('webadmin/jabatan') ?>" class="block px-4 py-2 text-gray-700 text-md hover:bg-gray-100">Table Jabatan</a>
                     </li>
                     <li>
+                        <a href="<?php echo base_url('webadmin/mapel') ?>" class="block px-4 py-2 text-gray-700 text-md hover:bg-gray-100">Table Mapel</a>
+                    </li>
+                    <li>
                         <a href="<?php echo base_url('webadmin/siswa') ?>" class="block px-4 py-2 text-gray-700 text-md hover:bg-gray-100">Table Siswa</a>
                     </li>
                     <li>
@@ -48,6 +51,9 @@
                     </li>
                     <li>
                         <a href="<?php echo base_url('cetaktable/jabatanBiasa') ?>" class="block px-4 py-2 text-gray-700 text-md hover:bg-gray-100">Table Jabatan</a>
+                    </li>
+                    <li>
+                        <a href="<?php echo base_url('cetaktable/mapelBiasa') ?>" class="block px-4 py-2 text-gray-700 text-md hover:bg-gray-100">Table Mapel</a>
                     </li>
                     <li>
                         <a href="<?php echo base_url('cetaktable/siswaBiasa') ?>" class="block px-4 py-2 text-gray-700 text-md hover:bg-gray-100">Table Siswa</a>
