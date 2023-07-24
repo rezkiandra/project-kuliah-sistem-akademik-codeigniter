@@ -9,8 +9,8 @@
             <a href="<?php echo base_url('webadmin') ?>" class="text-2xl font-medium hover:text-gray-400 text-gray-50">SIAKAD</a>
         </div>
         <div class="flex items-center justify-center gap-12 navbar-items">
-            <a href="<?php echo base_url('webadmin') ?>" class="font-medium text-md hover:text-gray-400 text-gray-50">Dashboard</a>
-            <button id="tableLink" data-dropdown-toggle="table" class="flex items-center justify-between w-full py-2 pl-3 pr-4 font-medium uppercase border-b border-gray-100 text-gray-50 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-gray-400 md:p-0 md:w-auto">
+            <a href="<?php echo base_url('webadmin') ?>" class="font-medium text-md hover:text-gray-400 text-gray-50 <?php if ($title == 'Dashboard') echo 'text-gray-700 bg-gray-50 px-4 rounded-lg py-1'  ?>">Dashboard</a>
+            <button id="tableLink" data-dropdown-toggle="table" class="flex items-center justify-between w-full py-2 pl-3 pr-4 font-medium uppercase border-b border-gray-100 text-gray-50 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-gray-400 md:p-0 md:w-auto <?php if ($title == 'Table Kelas' || $title == 'Table Jabatan' || $title == 'Table Mapel' || $title == 'Table Siswa' || $title == 'Table Guru' || $title == 'Table Staff') echo 'text-gray-700 bg-gray-50 px-4 rounded-lg py-1'  ?>">
                 Data Table
                 <svg class="w-4 h-4 ml-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path>

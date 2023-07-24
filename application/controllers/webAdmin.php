@@ -86,7 +86,7 @@ class WebAdmin extends CI_Controller
 	public function guru()
 	{
 		$data['guru'] 	= $this->m_guru->get_guru();
-		$data['title'] 	= 'Table guru';
+		$data['title'] 	= 'Table Guru';
 
 		$this->load->view('layouts/navbar2', $data);
 		$this->load->view('admin/guru', $data);
