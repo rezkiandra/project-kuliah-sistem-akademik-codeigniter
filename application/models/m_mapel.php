@@ -18,6 +18,8 @@ class M_mapel extends CI_Model
 
     public function get_mapel_by_id($id)
     {
+        $this->db->join('kelas', 'mapel.id_kelas = kelas.id_kelas', 'left');
+        $this->db->join('guru', 'mapel.id_guru = guru.id_guru', 'left');
         $this->db->where('id_mapel', $id);
         return $this->db->get('mapel');
     }

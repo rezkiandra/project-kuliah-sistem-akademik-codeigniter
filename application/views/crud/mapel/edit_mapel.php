@@ -26,6 +26,7 @@
                 <div class="flex flex-col mb-3">
                     <label for="id_kelas" class="mb-3 text-lg font-medium">Nama Kelas</label>
                     <select name="id_kelas" id="id_kelas" class="px-2 py-3 border rounded" required>
+                        <option selected value="<?= $mapel->id_kelas ?>"><?= $mapel->nama_kelas ?></option>
                         <?php foreach ($kelas as $key => $data) : ?>
                             <option value="<?= $data->id_kelas ?>"><?= $data->nama_kelas ?></option>
                         <?php endforeach; ?>
@@ -34,6 +35,7 @@
                 <div class="flex flex-col mb-3">
                     <label for="id_guru" class="mb-3 text-lg font-medium">Nama Guru</label>
                     <select name="id_guru" id="id_guru" class="px-2 py-3 border rounded" required>
+                        <option selected value="<?= $mapel->id_guru ?>"><?= $mapel->nama_guru ?></option>
                         <?php foreach ($guru as $key => $data) : ?>
                             <option value="<?= $data->id_guru ?>"><?= $data->nama_guru ?></option>
                         <?php endforeach; ?>

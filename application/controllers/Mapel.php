@@ -29,7 +29,7 @@ class Mapel extends CI_Controller
         $data['kelas'] = $this->m_kelas->get_kelas();
         $data['guru']  = $this->m_guru->get_guru();
 
-        $this->load->view('layouts/navbar2');
+        $this->load->view('layouts/navbar2', $data);
         $this->load->view('crud/mapel/tambah_mapel', $data);
         $this->load->view('layouts/footer2');
     }
@@ -49,7 +49,7 @@ class Mapel extends CI_Controller
         );
 
         $this->m_mapel->insert_mapel($data, 'mapel');
-        redirect('webadmin/mapel');
+        redirect('admin/mapel');
     }
 
     public function editMapel($id)
@@ -74,12 +74,12 @@ class Mapel extends CI_Controller
         $id_guru    = $this->input->post('id_guru');
 
         $this->m_mapel->update_mapel($id_mapel, $kd_mapel, $nama_mapel, $id_kelas, $id_guru);
-        redirect('webadmin/mapel');
+        redirect('admin/mapel');
     }
 
     public function hapusMapel($id_mapel)
     {
         $this->m_mapel->hapus_mapel($id_mapel);
-        redirect('webadmin/mapel');
+        redirect('admin/mapel');
     }
 }

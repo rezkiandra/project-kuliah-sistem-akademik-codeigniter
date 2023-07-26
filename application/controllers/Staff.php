@@ -26,7 +26,7 @@ class Staff extends CI_Controller
         $data['title'] = 'Tambah Staff';
         $data['jabatan'] = $this->m_jabatan->get_jabatan_staff();
 
-        $this->load->view('layouts/navbar2');
+        $this->load->view('layouts/navbar2', $data);
         $this->load->view('crud/staff/tambah_staff', $data);
         $this->load->view('layouts/footer2');
     }
@@ -48,7 +48,7 @@ class Staff extends CI_Controller
         );
 
         $this->m_staff->insert_staff($data, 'staff');
-        redirect('webadmin/staff');
+        redirect('admin/staff');
     }
 
     public function editStaff($id)
@@ -72,12 +72,12 @@ class Staff extends CI_Controller
         $id_jabatan     = $this->input->post('id_jabatan');
 
         $this->m_staff->update_staff($id_staff, $nip, $nama_staff, $alamat, $jenkel, $id_jabatan);
-        redirect('webadmin/staff');
+        redirect('admin/staff');
     }
 
     public function hapusStaff($id_staff)
     {
         $this->m_staff->hapus_staff($id_staff);
-        redirect('webadmin/staff');
+        redirect('admin/staff');
     }
 }

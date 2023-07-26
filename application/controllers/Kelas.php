@@ -23,7 +23,7 @@ class Kelas extends CI_Controller
     {
         $data['title'] = 'Tambah Kelas';
 
-        $this->load->view('layouts/navbar2');
+        $this->load->view('layouts/navbar2', $data);
         $this->load->view('crud/kelas/tambah_kelas', $data);
         $this->load->view('layouts/footer2');
     }
@@ -37,7 +37,7 @@ class Kelas extends CI_Controller
         );
 
         $this->m_kelas->insert_kelas($data, 'kelas');
-        redirect('webadmin/kelas');
+        redirect('admin/kelas');
     }
 
     public function editKelas($id)
@@ -56,12 +56,12 @@ class Kelas extends CI_Controller
         $nama_kelas = $this->input->post('nama_kelas');
 
         $this->m_kelas->update_kelas($id_kelas, $nama_kelas);
-        redirect('webadmin/kelas');
+        redirect('admin/kelas');
     }
 
     public function hapusKelas($id_kelas)
     {
         $this->m_kelas->hapus_kelas($id_kelas);
-        redirect('webadmin/kelas');
+        redirect('admin/kelas');
     }
 }

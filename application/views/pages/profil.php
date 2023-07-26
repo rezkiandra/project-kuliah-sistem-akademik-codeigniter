@@ -8,7 +8,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body>
+<body class="overflow-y-hidden">
     <div class="flex flex-col items-center justify-center mx-auto bg-gradient-to-r from-slate-200 to-slate-300 h-3/4">
         <div class="container grid grid-cols-3 gap-7 mb-7">
             <div class="py-10 border rounded-lg shadow-md px-7 bg-slate-100 h-72">

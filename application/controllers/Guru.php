@@ -26,7 +26,7 @@ class Guru extends CI_Controller
         $data['title'] = 'Tambah Guru';
         $data['jabatan'] = $this->m_jabatan->get_jabatan_guru();
 
-        $this->load->view('layouts/navbar2');
+        $this->load->view('layouts/navbar2', $data);
         $this->load->view('crud/guru/tambah_guru', $data);
         $this->load->view('layouts/footer2');
     }
@@ -48,7 +48,7 @@ class Guru extends CI_Controller
         );
 
         $this->m_guru->insert_guru($data, 'guru');
-        redirect('webadmin/guru');
+        redirect('admin/guru');
     }
 
     public function editGuru($id)
@@ -72,12 +72,12 @@ class Guru extends CI_Controller
         $id_jabatan     = $this->input->post('id_jabatan');
 
         $this->m_guru->update_guru($id_guru, $nip, $nama_guru, $alamat, $jenkel, $id_jabatan);
-        redirect('webadmin/guru');
+        redirect('admin/guru');
     }
 
     public function hapusGuru($id_guru)
     {
         $this->m_guru->hapus_guru($id_guru);
-        redirect('webadmin/guru');
+        redirect('admin/guru');
     }
 }

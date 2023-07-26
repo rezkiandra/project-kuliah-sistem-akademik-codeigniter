@@ -23,7 +23,7 @@ class Jabatan extends CI_Controller
     {
         $data['title'] = 'Tambah Jabatan';
 
-        $this->load->view('layouts/navbar2');
+        $this->load->view('layouts/navbar2', $data);
         $this->load->view('crud/jabatan/tambah_jabatan', $data);
         $this->load->view('layouts/footer2');
     }
@@ -37,7 +37,7 @@ class Jabatan extends CI_Controller
         );
 
         $this->m_jabatan->insert_jabatan($data, 'jabatan');
-        redirect('webadmin/jabatan');
+        redirect('admin/jabatan');
     }
 
     public function editJabatan($id)
@@ -56,12 +56,12 @@ class Jabatan extends CI_Controller
         $nama_jabatan = $this->input->post('nama_jabatan');
 
         $this->m_jabatan->update_jabatan($id_jabatan, $nama_jabatan);
-        redirect('webadmin/jabatan');
+        redirect('admin/jabatan');
     }
 
     public function hapusJabatan($id_jabatan)
     {
         $this->m_jabatan->hapus_jabatan($id_jabatan);
-        redirect('webadmin/jabatan');
+        redirect('admin/jabatan');
     }
 }

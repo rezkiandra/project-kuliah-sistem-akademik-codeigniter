@@ -26,7 +26,7 @@ class Siswa extends CI_Controller
         $data['title'] = 'Siswa';
         $data['kelas'] = $this->m_kelas->get_kelas();
 
-        $this->load->view('layouts/navbar2');
+        $this->load->view('layouts/navbar2', $data);
         $this->load->view('crud/siswa/tambah_siswa', $data);
         $this->load->view('layouts/footer2');
     }
@@ -48,7 +48,7 @@ class Siswa extends CI_Controller
         );
 
         $this->m_siswa->insert_siswa($data, 'siswa');
-        redirect('webadmin/siswa');
+        redirect('admin/siswa');
     }
 
     public function editSiswa($id)
@@ -72,12 +72,12 @@ class Siswa extends CI_Controller
         $id_kelas   = $this->input->post('id_kelas');
 
         $this->m_siswa->update_siswa($id_siswa, $nisn, $nama_siswa, $alamat, $jenkel, $id_kelas);
-        redirect('webadmin/siswa');
+        redirect('admin/siswa');
     }
 
     public function hapusSiswa($id_siswa)
     {
         $this->m_siswa->hapus_siswa($id_siswa);
-        redirect('webadmin/siswa');
+        redirect('admin/siswa');
     }
 }

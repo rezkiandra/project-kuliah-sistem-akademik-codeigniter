@@ -43,7 +43,7 @@ class Login extends CI_Controller
 			);
 
 			$this->session->set_userdata($data_session);
-			redirect(base_url("WebAdmin"));
+			redirect(base_url("admin"));
 		} else {
 			echo "Username dan password salah !";
 		}

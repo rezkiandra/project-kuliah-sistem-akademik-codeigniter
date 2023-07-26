@@ -19,32 +19,32 @@
             <div class="flex flex-col items-center justify-center h-48 p-10 bg-white border rounded-lg shadow-md">
                 <h1 class="mb-3 font-serif text-3xl font-medium text-center text-gray-700 capitalize"><?= $kelas ?></h1>
                 <h3 class="mb-5 font-serif text-2xl font-medium text-center text-gray-700 capitalize">Jumlah Kelas</h3>
-                <a href="<?php echo base_url('webadmin/kelas') ?>" class="py-1 font-medium text-center uppercase rounded-lg shadow-md px-14 text-gray-50 bg-slate-500 hover:opacity-80">Detail</a>
+                <a href="<?php echo base_url('admin/kelas') ?>" class="py-1 font-medium text-center uppercase rounded-lg shadow-md px-14 text-gray-50 bg-slate-500 hover:opacity-80">Detail</a>
             </div>
             <div class="flex flex-col items-center justify-center h-48 p-10 bg-white border rounded-lg shadow-md">
                 <h1 class="mb-3 font-serif text-3xl font-medium text-center text-gray-700 capitalize"><?= $jabatan ?></h1>
                 <h3 class="mb-5 font-serif text-2xl font-medium text-center text-gray-700 capitalize">Jumlah Jabatan</h3>
-                <a href="<?php echo base_url('webadmin/jabatan') ?>" class="py-1 font-medium text-center uppercase rounded-lg shadow-md px-14 text-gray-50 bg-slate-500 hover:opacity-80">Detail</a>
+                <a href="<?php echo base_url('admin/jabatan') ?>" class="py-1 font-medium text-center uppercase rounded-lg shadow-md px-14 text-gray-50 bg-slate-500 hover:opacity-80">Detail</a>
             </div>
             <div class="flex flex-col items-center justify-center h-48 p-10 bg-white border rounded-lg shadow-md">
                 <h1 class="mb-3 font-serif text-3xl font-medium text-center text-gray-700 capitalize"><?= $mapel ?></h1>
                 <h3 class="mb-5 font-serif text-2xl font-medium text-center text-gray-700 capitalize">Jumlah Mata Pelajaran</h3>
-                <a href="<?php echo base_url('webadmin/mapel') ?>" class="py-1 font-medium text-center uppercase rounded-lg shadow-md px-14 text-gray-50 bg-slate-500 hover:opacity-80">Detail</a>
+                <a href="<?php echo base_url('admin/mapel') ?>" class="py-1 font-medium text-center uppercase rounded-lg shadow-md px-14 text-gray-50 bg-slate-500 hover:opacity-80">Detail</a>
             </div>
             <div class="flex flex-col items-center justify-center h-48 p-10 bg-white border rounded-lg shadow-md">
                 <h1 class="mb-3 font-serif text-3xl font-medium text-center text-gray-700 capitalize"><?= $siswa ?></h1>
                 <h3 class="mb-5 font-serif text-2xl font-medium text-center text-gray-700 capitalize">Jumlah Siswa</h3>
-                <a href="<?php echo base_url('webadmin/siswa') ?>" class="py-1 font-medium text-center uppercase rounded-lg shadow-md px-14 text-gray-50 bg-slate-500 hover:opacity-80">Detail</a>
+                <a href="<?php echo base_url('admin/siswa') ?>" class="py-1 font-medium text-center uppercase rounded-lg shadow-md px-14 text-gray-50 bg-slate-500 hover:opacity-80">Detail</a>
             </div>
             <div class="flex flex-col items-center justify-center h-48 p-10 bg-white border rounded-lg shadow-md">
                 <h1 class="mb-3 font-serif text-3xl font-medium text-center text-gray-700 capitalize"><?= $guru ?></h1>
                 <h3 class="mb-5 font-serif text-2xl font-medium text-center text-gray-700 capitalize">Jumlah Guru</h3>
-                <a href="<?php echo base_url('webadmin/guru') ?>" class="py-1 font-medium text-center uppercase rounded-lg shadow-md px-14 text-gray-50 bg-slate-500 hover:opacity-80">Detail</a>
+                <a href="<?php echo base_url('admin/guru') ?>" class="py-1 font-medium text-center uppercase rounded-lg shadow-md px-14 text-gray-50 bg-slate-500 hover:opacity-80">Detail</a>
             </div>
             <div class="flex flex-col items-center justify-center h-48 p-10 bg-white border rounded-lg shadow-md">
                 <h1 class="mb-3 font-serif text-3xl font-medium text-center text-gray-700 capitalize"><?= $staff ?></h1>
                 <h3 class="mb-5 font-serif text-2xl font-medium text-center text-gray-700 capitalize">Jumlah Staff</h3>
-                <a href="<?php echo base_url('webadmin/staff') ?>" class="py-1 font-medium text-center uppercase rounded-lg shadow-md px-14 text-gray-50 bg-slate-500 hover:opacity-80">Detail</a>
+                <a href="<?php echo base_url('admin/staff') ?>" class="py-1 font-medium text-center uppercase rounded-lg shadow-md px-14 text-gray-50 bg-slate-500 hover:opacity-80">Detail</a>
             </div>
         </div>
     </div>

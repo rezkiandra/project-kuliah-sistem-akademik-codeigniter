@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') or exit('No direct script access allowed');
 
-class WebAdmin extends CI_Controller
+class Admin extends CI_Controller
 {
 	var $session;
 	var $m_kelas;
